@@ -18,12 +18,12 @@
 </script>
 
 <div>
-  <Canvas>
-    <PerspectiveCamera position={{ x: 50, y: 1, z: 1 }} fov={26}>
+  <Canvas shadows={true} size={{width: 500, height: 500 }}>
+    <PerspectiveCamera position={{ x: 50, y: 0, z: 0 }} fov={26}>
       <OrbitControls
         maxPolarAngle={DEG2RAD * 80}
-        autoRotate={false}
-        enableZoom={false}
+        autoRotate={true}
+        enableZoom={true}
         target={{ y: 0.5 }}
       />
     </PerspectiveCamera>
@@ -33,7 +33,7 @@
     <AmbientLight intensity={0.2} />
 
 
-    <GLTF castShadow receiveShadow url={'https://raw.githubusercontent.com/BinaryTreeCode/3d/master/conejo.gltf'} position={{ y: 1 }} scale={3} />
+    <GLTF castShadow receiveShadow url={'https://raw.githubusercontent.com/BinaryTreeCode/3d/master/conejo.gltf'} position={{ y: -6.3, x: -0.5 }} scale={5} interactive />
   </Canvas>
 </div>
 
