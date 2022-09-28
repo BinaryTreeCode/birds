@@ -21,12 +21,12 @@
 
 <div>
   <Canvas shadows={true} size={{width: 500, height: 500 }}>
-    <PerspectiveCamera position={{ x: 50, y: 0, z: 0 }} fov={26}>
+    <PerspectiveCamera position={{ x: 15, y: 0, z: 0 }} fov={26}>
       <OrbitControls
         maxPolarAngle={DEG2RAD * 80}
         autoRotate={true}
-        enableZoom={true}
-        target={{ y: 0.5 }}
+        enableZoom={false}
+        target={{ y: -2 }}
       />
     </PerspectiveCamera>
 
@@ -35,7 +35,7 @@
     <AmbientLight intensity={0.2} />
 
 
-    <GLTF castShadow receiveShadow url={'https://raw.githubusercontent.com/BinaryTreeCode/3d/master/Cistothorus%20apolinari%20V3.gltf'} position={{ y: -6.3, x: -0.5 }} scale={5} interactive />
+    <GLTF castShadow receiveShadow url={'https://raw.githubusercontent.com/BinaryTreeCode/3d/master/Cistothorus%20apolinari%20V3.gltf'} position={{ y: -2.3, x: -0.5 }} scale={5} interactive />
   </Canvas>
 </div>
 

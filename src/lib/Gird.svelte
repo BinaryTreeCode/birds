@@ -15,6 +15,8 @@
     <div class="text">
             {#each info as text}
                 <li>{text}</li>
+                <br>
+                <br>
             {/each}
     </div>
     <div class="model">
