@@ -10,7 +10,7 @@
 
 <div class="grid">
     <div class="title">
-        <h1>el conejo</h1>
+        <h1>Cucarachero de Pantano</h1>
     </div>
     <div class="text">
             {#each info as text}
