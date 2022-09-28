@@ -2,10 +2,10 @@
 <script>
     import Model from "./Model.svelte"
 
-    export let name = "el conejo"
+    export let nombre = "el conejo"
     export let info = ["Model", "Info", "Info", "Info", "Info", "Info", "Info"];
 
-    export let url = 'https://raw.githubusercontent.com/BinaryTreeCode/3d/master/conejo.gltf';
+    export let model = 'https://raw.githubusercontent.com/BinaryTreeCode/3d/master/conejo.gltf';
 </script>
 
 <div class="grid">

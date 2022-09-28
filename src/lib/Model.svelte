@@ -16,7 +16,7 @@
 
   const scale = spring(1)
 
-  export let url = 'https://raw.githubusercontent.com/BinaryTreeCode/3d/master/conejo.gltf'
+  export let model = 'https://raw.githubusercontent.com/BinaryTreeCode/3d/master/conejo.gltf'
 </script>
 
 <div>
