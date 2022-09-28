@@ -15,9 +15,6 @@
     <div class="text">
             {#each info as text}
                 <li>{text}</li>
-                <br>
-                <br>
-
             {/each}
     </div>
     <div class="model">
@@ -37,7 +34,7 @@
         grid-row: 1;
         grid-column: 1 / 4;  
 
-        align-self: center;;
+        align-self: center;
     }
 
     .text {
